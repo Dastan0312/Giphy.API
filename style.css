@@ -1,8 +1,9 @@
-*{
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background:#000;
 }
@@ -15,7 +16,13 @@ form {
 }
 
 input {
-    flex: 0 1 70%;
+    flex: 0 1 60%;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+select {
+    flex: 0 1 10%;
     padding: 10px 15px;
     font-size: 25px;
 }
@@ -36,8 +43,23 @@ button:active {
 width: 95%;
 margin: auto;
 padding: 10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 
 .card {
-    flex: 0 20% 60%;
+    flex: 0 1 23%;
+    margin: 20px 0;
+}
+
+h3 {
+    
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
 }
